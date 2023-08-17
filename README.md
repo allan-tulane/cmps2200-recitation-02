@@ -21,13 +21,13 @@ To complete this recitation, follow the instructions in this document. Some of y
   + If it seems things don't refresh, try running `from main import *`
 - You can exit the IPython prompt by either typing `exit` or pressing `ctrl-d`
 - To run tests, from the command-line shell, you can run
-  + `pytest main.py` will run all tests
-  + `pytest main.py::test_one` will just run `test_one`
+  + `pytest test_main.py` will run all tests
+  + `pytest test_main.py::test_one` will just run `test_one`
   + We recommend running one test at a time as you are debugging.
 
 ## Turning in your work
 
-- Once complete, click on the "Version Control" icon in the left pane on repl.it.
+- Once complete, click on the "Git" icon in the left pane on repl.it.
 - Enter a commit message in the "what did you change?" text box
 - Click "commit and push." This will push your code to your github repository.
 - Although you are working as a team, please have each team member submit the same code to their repository. One person can copy the code to their repl.it and submit it from there.
