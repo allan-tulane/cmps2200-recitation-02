@@ -20,12 +20,6 @@ def simple_work_calc(n, a, b):
 	# TODO
 	pass
 
-def test_simple_work():
-	""" done. """
-	assert work_calc(10, 2, 2) == #TODO
-	assert work_calc(20, 3, 2) == #TODO
-	assert work_calc(30, 4, 2) == #TODO
-
 def work_calc(n, a, b, f):
 	"""Compute the value of the recurrence $W(n) = aW(n/b) + f(n)
 
@@ -56,11 +50,7 @@ def span_calc(n, a, b, f):
 	# TODO
 	pass
 
-def test_work():
-	""" done. """
-	assert work_calc(10, 2, 2,lambda n: 1) == #TODO
-	assert work_calc(20, 1, 2, lambda n: n*n) == #TODO
-	assert work_calc(30, 3, 2, lambda n: n) == #TODO
+
 
 def compare_work(work_fn1, work_fn2, sizes=[10, 20, 50, 100, 1000, 5000, 10000]):
 	"""
