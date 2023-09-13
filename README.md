@@ -9,7 +9,7 @@ To complete this recitation, follow the instructions in this document. Some of y
 
 
 ## Running and testing your code
-- In the command-line window, run `./ipy` to launch an interactive IPython shell. This is an interactive shell to help run and debug your code. Any code you change in `main.py` will be reflected from this shell. So, you can modify a function in `main.py`, then test it here.
+- In the command-line window, run `./ipy` to launch an interactive IPython shell. This is an interactive shell to help run and debug your code. Any code you change in `main.py` will be reflected from this shell. So, you can modify a function in `main.py`, then test it in `test_main.py`.
   + If it seems things don't refresh, try running `from main import *`
 - You can exit the IPython prompt by either typing `exit` or pressing `ctrl-d`
 - To run tests, from the command-line shell, you can run
